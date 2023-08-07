@@ -88,9 +88,22 @@ a{
   width:20%;
    border-color: white;
   margin:auto;
-  border:100%;
-  padding:16px;
+  border:50%;
+  padding:0.6rem;
   opacity: 0.8;
+}
+@media only screen and (width <=1200px) {
+  .button {
+    width: 49.99999%;
+    margin: 6px 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .button {
+    width: 50;
+  }
 }
 .button:hover{
   opacity: 1;
@@ -224,4 +237,5 @@ margin-bottom: 2px;
 color: #ccc1c1;
 font-size: 15px;
 }
+
 
